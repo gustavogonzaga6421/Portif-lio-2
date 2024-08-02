@@ -1,0 +1,84 @@
+* { /* Resetando as configurações de margin e padding aplicadas globalmente */
+    margin: 0;
+    padding: 0;
+}
+
+body { /* Estilo geral da página */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+    background-color: black; /* Cor de fundo da página */
+    height: 100vh; /* Altura igual a 100% da altura da tela */
+    color: #f6f6f6; /* Cor da fonte */
+    font-family: 'Montserrat', sans-serif; /* Fonte padrão do corpo */
+}
+
+h1 { /* Estilo para o título principal */
+    color: #22d4f2; /* Cor do texto */
+}
+
+p { /* Estilo para os parágrafos */
+    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte */
+    color: #f6f6f6; /* Cor do texto */
+    text-align: justify; /* Justifica o texto */
+}
+
+strong.Destaque { /* Estilo para strong com a classe Destaque */
+    color: #f6f6f6; /* Cor do texto */
+}
+
+strong.titulo { /* Estilo para strong com a classe Titulo */
+    color: #f6f6f6; /* Cor do texto */
+}
+
+.titulo_azul {
+    color: #22d4f2; /* Cor azul para o texto */
+}
+
+.Apresentação { /* Estilo para o container principal */
+    margin: 10% 15%; /* Margem em relação às bordas do container */
+    display: flex; /* Define o layout como flexível */
+    flex-direction: row; /* Direção dos itens no layout flexível */
+    align-items: center; /* Alinhamento vertical dos itens */
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+.apresentação_conteudo { /* Estilo para a coluna da esquerda */
+    display: flex; /* Define o layout como flexível */
+    flex-direction: column; /* Disposição dos itens em coluna */
+    width: 50%; /* Largura de 50% do container principal */
+    gap: 40px; /* Espaçamento entre os itens dentro do container */
+}
+
+.apresentação_links { /* Estilo para o container dos links */
+    display: flex; /* Define o layout como flexível */
+    flex-direction: column; /* Direção dos itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente dentro do contêiner */
+    gap: 32px; /* Espaçamento entre os itens */
+}
+
+.apresentação_conteudo_titulo { /* Estilo para o título dentro da coluna da esquerda */
+    font-size: 36px; /* Tamanho da fonte */
+    font-family: 'Krona One', sans-serif; /* Tipo de fonte */
+    text-align: justify; /* Justifica o enunciado */
+}
+
+.apresentação_conteudo_texto { /* Estilo para o parágrafo de conteúdo */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: justify; /* Justifica o texto */
+}
+
+.apresentacao__links__link { /* Estilo para os links dentro da coluna da esquerda */
+    background-color: transparent; /* Remove o fundo ciano */
+    color: #F6F6F6; /* Cor do texto branco */
+    border: 2px solid #22D4FD; /* Borda sólida ciano de 2px */
+    width: 378px; /* Largura do botão */
+    text-align: center; /* Alinhamento do texto dentro do botão */
+    border-radius: 8px; /* Raio da borda do botão */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte */
+    padding: 16px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-family: 'Montserrat', sans-serif; /* Tipo de fonte */
+    display: flex; /* Define o layout como flexível */
+    align-items: center; /* Alinhamento vertical dos itens */
+    justify-content: center; /* Alinhamento horizontal dos itens */
+}
